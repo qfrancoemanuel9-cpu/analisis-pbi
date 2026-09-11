@@ -1,0 +1,31 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Bytecode / cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribución / empaquetado
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Herramientas y cache
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Variables de entorno / secretos
+.env
+.env.*
+
+# Archivos del editor / sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
